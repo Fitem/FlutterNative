@@ -21,6 +21,10 @@ dependencyResolutionManagement {
         maven { url 'https://maven.aliyun.com/nexus/content/repositories/google' }
         maven { url 'https://maven.aliyun.com/nexus/content/repositories/gradle-plugin' }
         maven { url "https://storage.flutter-io.cn/download.flutter.io" }
+//        maven {
+//            allowInsecureProtocol = true
+//            url "http://download.flutter.io"
+//        }
         google()
         mavenCentral()
     }
